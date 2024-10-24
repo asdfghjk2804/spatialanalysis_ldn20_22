@@ -1,0 +1,24 @@
+Project Title: The Spatial Dynamics of Employment and Crime in London: Violence, Burglary, and Anti-Social Behaviour (2020-2022)
+
+Description:
+This project analyzes the influence of employment rates on crime patterns in London during 2020-2022, focusing on spatial analysis of violence, burglary, and anti-social behavior.
+
+Dependencies:
+- Python 3.x
+- pandas
+- numpy
+- geopandas
+- matplotlib
+- seaborn
+
+Data Sources:
+- **Crime Data**: Crime data was sourced from the UK Police Data Archive, specifically from the dataset covering the period between January 2020 and December 2022. This dataset contains anonymized records of crimes reported in London, including information on crime types and locations. The dataset was accessed from [data.police.uk](https://data.police.uk/data/archive).
+
+- **Employment Data**: Employment rate data for London was obtained from the London Data Store, specifically focusing on employment rates by gender, age, and disability status. This dataset covers various demographics across the city's boroughs and was used to explore the relationship between employment and crime rates. The dataset can be accessed via this link: [data.london.gov.uk](https://data.london.gov.uk).
+
+- **Population Data**: Population data for London boroughs was sourced from the Office for National Statistics. The dataset provides population estimates across various demographic groups for each borough, which was essential for normalizing crime and employment data per capita. The population estimates dataset is available at [ons.gov.uk](https://www.ons.gov.uk).
+
+References:
+- Mendez, C. (n.d.) **Python GWR and MGWR**, Deepnote. Available at: https://deepnote.com/app/carlos-mendez/PYTHON-GWR-and-MGWR-71dd8ba9-a3ea-4d28-9b20-41cc8a282b7a.
+- PySAL (n.d.) **Visualization of Moran’s I with splot**, PySAL. Available at: https://pysal.org/notebooks/viz/splot/esda_morans_viz.html.
+- ChatGPT by OpenAI. (2023) **AI-powered assistant for code debugging and problem-solving**. Available at: https://openai.com.
